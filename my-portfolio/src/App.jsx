@@ -7,10 +7,12 @@ function App() {
     <div className="relative min-h-screen bg-black">
       <StarsBackground className="absolute inset-0 z-0" />
 
-      <div className="relative z-10 mx-10">
+      <div className="relative z-10 mx-5 sm:mx-10">
         <Navbar />
         <section className="banner flex flex-col items-center justify-center text-center mt-20">
-          <h1 className="text-[var(--light-color)] mt-10 text-3xl md:text-4xl font-bold">hi, I'm <span className="text-glow">Ana Clara</span></h1>
+          <div className="flex items-center mt-10 text-[var(--light-color)]">
+            <span className="mr-1 text-xs">1</span><h2>&lt;p&gt;</h2><h1 className="mx-1 text-2xl sm:text-3xl md:text-4xl font-bold">hi, I'm <span className="text-glow">Ana Clara</span></h1><h2>&lt;/p&gt;</h2>
+          </div>
           <div className="text-typed mt-4">
             <TypeAnimation
               sequence={[
@@ -35,7 +37,7 @@ function App() {
           </p>
         </section>
       </div>
-      
+
     </div>
   )
 }
