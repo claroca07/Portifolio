@@ -8,6 +8,9 @@ function App() {
 
       <div className="relative z-10">
         <Navbar />
+        <section className="flex justify-center">
+        <h1 className="text-white mt-10 text-4xl font-bold">Hi, I'm <span className="text-glow">Ana Clara</span></h1>
+        </section>
       </div>
     </div>
   )

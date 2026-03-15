@@ -12,14 +12,14 @@
 
 .navbar{
   padding-inline: 7rem;
-  border-bottom: 1px solid rgb(86, 7, 170);
+  border-bottom: 1px solid rgb(91, 85, 98);
 }
 
 .navbar ul li {
   position: relative;
   cursor: pointer;
-  color: rgb(225, 197, 255);
-  font-size: 14px;
+  color: rgb(166, 160, 172);
+  font-size: 17px;
   font-family: "Sansation", sans-serif;
 }
 
@@ -31,13 +31,17 @@
   width: 0;
   height: 2px;
   border-radius: 1px;
-  background-color: #7943df;
+  background-color: #ffffff;
   transform: translateX(-50%);
   transition: width 0.3s ease;
 }
 
 .navbar ul li:hover::after {
   width: 100%;
+}
+
+.text-glow {
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
 }
 
 @layer base {

@@ -2,10 +2,9 @@ import logo from "../assets/img/logo.png"
 
 function Navbar() {
     return(
-        <nav className="navbar flex justify-between items-center bg-black/40 backdrop-blur-sm py-2">
+        <nav className="navbar flex justify-between items-center bg-black/30 backdrop-blur-sm py-3">
             <div className="flex items-center gap-2">
-                <img className="size-10" src={logo} alt="Logo" />
-                <h1 className="text-white">Ana Clara</h1>
+                <img className="w-32" src={logo} alt="Logo" />
             </div>
             <ul className="flex gap-6">
                 <li><a href="#home">Home</a></li>
