@@ -43,6 +43,23 @@
 
 /* Responsividade */
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fundo{
+  background-color: black;
+}
+
+.background {
+  animation: fadeIn 1s ease-out;
+}
+
 @media (width <=555px) {
   .navbar {
     justify-content: center;
