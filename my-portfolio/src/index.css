@@ -87,6 +87,22 @@
   color: rgb(202, 198, 205);
 }
 
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0 30px var(--secondary-color);
+}
+
+.title{
+  color: var(--light-color);
+}
+
 @layer base {
   :root {
     --background: oklch(1 0 0);
