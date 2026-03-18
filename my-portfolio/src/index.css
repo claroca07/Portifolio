@@ -11,7 +11,8 @@
   --ring: 222 84% 5%;
   --primary-color: rgb(15, 11, 122);
   --secondary-color: rgb(14, 20, 199);
-  --light-color: rgb(217, 218, 240);
+  --lightblue-color: rgb(134, 176, 255);
+  --light-color: rgb(199, 204, 240);
   --glow-color: rgb(80, 133, 255);
   --dark-color: rgb(3, 4, 33);
 }
@@ -95,9 +96,10 @@
   padding: 1rem;
   border-radius: 12px;
   background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid var(--primary-color);
-  box-shadow: 0 0 30px var(--secondary-color);
+  box-shadow: 0 0 20px rgba(14, 20, 199, 0.616);
 }
+
+
 
 .title{
   color: var(--light-color);

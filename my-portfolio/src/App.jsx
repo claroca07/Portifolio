@@ -35,7 +35,7 @@ function App() {
             </div>
             <div className="mt-6 h-1 w-64 sm:w-96 bg-gradient-to-r from-transparent via-blue-800 to-transparent"></div>
             <p className="mt-4 font-medium text-lg sm:text-2xl text-[var(--light-color)] max-w-2xl leading-relaxed">
-              Passionate about creating beautiful and functional web experiences, transforming ideas into digital reality.
+              passionate about creating beautiful and functional web experiences, transforming ideas into digital reality.
             </p>
           </section>
           <About />
