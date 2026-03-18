@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import About from "./components/About"
+import Skills from "./components/Skills"
 import { TypeAnimation } from "react-type-animation"
 import { StarsBackground } from "./components/animate-ui/components/backgrounds/stars"
 
@@ -39,6 +40,7 @@ function App() {
             </p>
           </section>
           <About />
+          <Skills />
         </div>
 
       </div>
