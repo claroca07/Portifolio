@@ -17,6 +17,38 @@
   --dark-color: rgb(3, 4, 33);
 }
 
+.item{
+  color: var(--light-color);
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid rgba(15, 11, 122, 0.404);
+  box-shadow: 0 0 20px rgba(15, 11, 122, 0.404);
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.949);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  /* gradiente controlando o blur */
+mask-image: linear-gradient(
+  to bottom,
+  rgba(0,0,0,1) 0%,
+  rgba(0,0,0,0.7) 40%,
+  rgba(0,0,0,0.3) 70%,
+  rgba(0,0,0,0) 100%
+);
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 40%,
+    transparent 100%
+  );
+}
+
 .navbar ul li {
   position: relative;
   cursor: pointer;
@@ -87,18 +119,6 @@
 .text-typed {
   color: rgb(202, 198, 205);
 }
-
-.card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 20px rgba(14, 20, 199, 0.616);
-}
-
 
 
 .title{

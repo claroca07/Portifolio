@@ -1,13 +1,14 @@
 import Navbar from "./components/Navbar"
 import About from "./components/About"
+import Projects from "./components/Projects"
 import { TypeAnimation } from "react-type-animation"
 import { StarsBackground } from "./components/animate-ui/components/backgrounds/stars"
 
 function App() {
   return (
     <div className="fundo">
+        <StarsBackground className="fixed inset-0 z-0" />
       <div className="background relative min-h-screen">
-        <StarsBackground className="absolute inset-0 z-0" />
 
         <div className="relative z-10 mx-5 sm:mx-10">
           <Navbar />
@@ -39,8 +40,8 @@ function App() {
             </p>
           </section>
           <About />
+          <Projects />
         </div>
-
       </div>
     </div>
 

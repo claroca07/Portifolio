@@ -3,11 +3,11 @@ function About() {
         <section className="text-[var(--light-color)] flex flex-col justify-center items-center gap-6 mt-20">
             <h1 className="title text-3xl font-medium">My <span className="text-glow">Education</span></h1>
             <div className="flex gap-10 my-6 flex-col sm:flex-row text-xl">
-                <div className="card">
+                <div className="item flex flex-col items-center">
                     <h2 className="font-bold">Technical Degree in Systems Development</h2>
                     <h3 className="text-lg font-medium">Etec Sales Gomes — 2023 - 2025</h3>
                 </div>
-                <div className="card">
+                <div className="item flex flex-col items-center">
                     <h2 className="font-bold">Systems Analysis and Development — Associate Degree</h2>
                     <h3 className="text-lg font-medium">IFSP — present - 2028</h3>
                 </div>
