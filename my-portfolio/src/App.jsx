@@ -24,7 +24,7 @@ function App() {
                   1000,
                   'I am a web designer',
                   1000,
-                  'I am a artist',
+                  'I am an artist',
                   1000,
                   'I am here to help you',
                   1000
